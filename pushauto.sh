@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Check if there are at least 2 arguments provided
-if [ "$#" -lt 2 ]; then
-    echo "Usage: $0 message_push main origin"
-    exit 1
-fi
+#if [ "$#" -lt 2 ]; then
+#    echo "Usage: $0 message_push main origin"
+ #   exit 1
+#fi
 
 # Assign arguments to variables
 COMMIT_MESSAGE=$1
